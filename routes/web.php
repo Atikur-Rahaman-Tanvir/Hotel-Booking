@@ -34,8 +34,8 @@ Route::middleware([
 });
 
 
-Route::get('tanvir', function(){
-    return 'Hi Tanvir!';
+Route::get('new-test', function(){
+    return 'git hub test';
 });
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], function(){
